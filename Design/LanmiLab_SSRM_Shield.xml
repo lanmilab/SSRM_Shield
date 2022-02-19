@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/d/Workspace/Development/Lanmilab/SSRM_Shield/SSRM_Shield_Design/LanmiLab_SSRM_Shield.kicad_sch</source>
+    <date>Sat 19 Feb 2022 03:15:31 PM CET</date>
+    <tool>Eeschema 6.0.2+dfsg-1~bpo11+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SSRM</title>
+        <company>LanmiLab</company>
+        <rev>1.0.1</rev>
+        <date>2022-02-19</date>
+        <source>LanmiLab_SSRM_Shield.kicad_sch</source>
+        <comment number="1" value="Solid State Relay Shield"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2045792.pdf?_ga=2.261629197.120407668.1580559680-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">K104K15X7RF53L2</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="K104K15X7RF53L2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e528bc1</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e53c439</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e54550b</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e546caa</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e548371</tstamps>
+    </comp>
+    <comp ref="HS1">
+      <value>Heatsink_Pad</value>
+      <footprint>Heatsink:Heatsink_Fischer_SK129-STS_42x25mm_2xDrill2.5mm</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2213390.pdf?_ga=2.177903397.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">FA-T220-25E</field>
+      </fields>
+      <libsource lib="Mechanical" part="Heatsink_Pad" description="Heatsink with electrical connection, 1 pin"/>
+      <property name="Part Number" value="FA-T220-25E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e54b2f3</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.harwin.com/pdfs/M20-999.pdf</datasheet>
+      <fields>
+        <field name="Part Number">M20-9990245</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="M20-9990245"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e508d58</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type073_RT02603HBLU_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2790706.pdf?_ga=2.174305314.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">MKDS 3/ 3-5,08</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="MKDS 3/ 3-5,08"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e48101d</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Arduino_Nano_v3.x_plug</value>
+      <footprint>LanmiLab_SSRM_Shield:Arduino_Nano_33_IoT_3D_NoPads</footprint>
+      <datasheet>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</datasheet>
+      <libsource lib="Arduino-nano-33" part="Arduino_Nano_v3.x_plug" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e2924de</tstamps>
+    </comp>
+    <comp ref="OT1">
+      <value>IL420</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2047184.pdf?_ga=2.74658833.2071986345.1583145430-1634400480.1575982402</datasheet>
+      <fields>
+        <field name="Part Number">IL420</field>
+      </fields>
+      <libsource lib="Optotriac" part="IL420" description=""/>
+      <property name="Part Number" value="IL420"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e2e51fa</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>Conn_01x15</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf</datasheet>
+      <fields>
+        <field name="Part Number">PPPC151LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x15" description="Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="PPPC151LFBN-RC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e29b155</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>Conn_01x15</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf</datasheet>
+      <fields>
+        <field name="Part Number">PPPC151LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x15" description="Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Part Number" value="PPPC151LFBN-RC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e28ab7b</tstamps>
+    </comp>
+    <comp ref="PS1">
+      <value>IRM-02-9</value>
+      <footprint>Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_THT</footprint>
+      <datasheet>https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF</datasheet>
+      <fields>
+        <field name="Part Number">IRM-02-9</field>
+      </fields>
+      <libsource lib="Converter_ACDC" part="IRM-02-5" description="5V, 400mA, 2W, Isolated, AC-DC, IRM02"/>
+      <property name="Part Number" value="IRM-02-9"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e29e24d</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>T3035H-6I</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/t3035h.pdf</datasheet>
+      <fields>
+        <field name="Part Number">T3035H-6I</field>
+      </fields>
+      <libsource lib="Triac_Thyristor_" part="T3035H-6I" description=""/>
+      <property name="Part Number" value="T3035H-6I"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e2a2a4d</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>220R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/TTRB/TTRB-S-A0005376870/TTRB-S-A0005306648-1.pdf?hkey=52A5661711E402568146F3353EA87419</datasheet>
+      <fields>
+        <field name="Part Number">MFP1-220R JI</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Part Number" value="MFP1-220R JI"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e452f79</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>56R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2046132.pdf?_ga=2.177976485.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">MRS25000C5609FCT00</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Part Number" value="MRS25000C5609FCT00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e447dc1</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1723855.pdf?_ga=2.14193847.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">LR0204F1K0</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Part Number" value="LR0204F1K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4b3af0</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>2M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2045737.pdf?_ga=2.9475893.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">HVR3700002004FR500</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Part Number" value="HVR3700002004FR500"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4cc54d</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>2M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2045737.pdf?_ga=2.9475893.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">HVR3700002004FR500</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Part Number" value="HVR3700002004FR500"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e573a61</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>2K2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2013215.pdf?_ga=2.213121812.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">CFR16J2K2</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Part Number" value="CFR16J2K2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4f2c5f</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2013215.pdf?_ga=2.9543093.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">CFR16J10K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Part Number" value="CFR16J10K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4f7772</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2013215.pdf?_ga=2.9543093.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">CFR16J10K</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Part Number" value="CFR16J10K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e5803ea</tstamps>
+    </comp>
+    <comp ref="TH1">
+      <value>Thermistor_NTC</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2015784.pdf?_ga=2.14334391.1297140431.1581668985-797642152.1567873553</datasheet>
+      <fields>
+        <field name="Part Number">B57891M0103K000</field>
+      </fields>
+      <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
+      <property name="Part Number" value="B57891M0103K000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e4fec2e</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ACS71020KMABTR-030B3-I2C</value>
+      <footprint>Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</footprint>
+      <datasheet>https://www.allegromicro.com/-/media/Files/Datasheets/ACS71020-Datasheet.ashx</datasheet>
+      <fields>
+        <field name="Part Number">ACS71020KMABTR-030B3-I2C</field>
+      </fields>
+      <libsource lib="Power_supervisor" part="ACS71020KMABTR-030B3-I2C" description=""/>
+      <property name="Part Number" value="ACS71020KMABTR-030B3-I2C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LanmiLab_SSRM_Shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005e2e33f1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Arduino-nano-33" part="Arduino_Nano_v3.x_plug">
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Arduino-nano-33_Arduino_Nano_v3.x_plug</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+      </fields>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x15">
+      <description>Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x15</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Converter_ACDC" part="IRM-02-5">
+      <description>5V, 400mA, 2W, Isolated, AC-DC, IRM02</description>
+      <docs>https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF</docs>
+      <footprints>
+        <fp>Converter*ACDC*MeanWell*IRM*02*THT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">IRM-02-5</field>
+        <field name="Footprint">Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_THT</field>
+        <field name="Datasheet">https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AC/N" type="power_in"/>
+        <pin num="2" name="AC/L" type="power_in"/>
+        <pin num="3" name="-Vo" type="power_out"/>
+        <pin num="4" name="+Vo" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor_NTC">
+      <description>Temperature dependent resistor, negative temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor_NTC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Small">
+      <description>Open Hardware logo, small</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Logo_Open_Hardware_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="LanmiLab_SSRM_Shield" part="Logo">
+      <description>Logo symbol</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Logo</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="Heatsink_Pad">
+      <description>Heatsink with electrical connection, 1 pin</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Heatsink_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">Heatsink_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Optotriac" part="IL420">
+      <fields>
+        <field name="Reference">OK</field>
+        <field name="Value">Optotriac_IL420</field>
+        <field name="Footprint">optocoupler-2-DIL06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="4" name="A1" type="passive"/>
+        <pin num="6" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_supervisor" part="ACS71020KMABTR-030B3-I2C">
+      <footprints>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Power_supervisor_ACS71020KMABTR-030B3-I2C</field>
+        <field name="Footprint">Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IP+" type="passive"/>
+        <pin num="2" name="IP+" type="passive"/>
+        <pin num="3" name="IP+" type="passive"/>
+        <pin num="4" name="IP+" type="passive"/>
+        <pin num="5" name="IP-" type="passive"/>
+        <pin num="6" name="IP-" type="passive"/>
+        <pin num="7" name="IP-" type="passive"/>
+        <pin num="8" name="IP-" type="passive"/>
+        <pin num="9" name="DIO_1" type="bidirectional"/>
+        <pin num="10" name="DIO_0" type="bidirectional"/>
+        <pin num="11" name="SCL" type="bidirectional"/>
+        <pin num="12" name="SDA" type="bidirectional"/>
+        <pin num="13" name="VCC" type="power_in"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="VINN" type="input"/>
+        <pin num="16" name="VINP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Triac_Thyristor_" part="T3035H-6I">
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Triac_Thyristor__T3035H-6I</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Arduino-nano-33">
+      <uri>D:/Workspace/Komponente/EDA Library/KiCad/Symbol/Arduino-nano-33.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Converter_ACDC">
+      <uri>/usr/share/kicad/symbols//Converter_ACDC.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>/usr/share/kicad/symbols//Graphic.kicad_sym</uri>
+    </library>
+    <library logical="LanmiLab_SSRM_Shield">
+      <uri>/d/Workspace/Development/Lanmilab/SSRM_Shield/SSRM_Shield_Design/LanmiLab_SSRM_Shield.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Optotriac">
+      <uri>D:/Workspace/Komponente/EDA Library/KiCad/Symbol/Optotriac.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="P1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/DIO_0">
+      <node ref="P2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="DIO_0" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/DIO_1">
+      <node ref="P2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="DIO_1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/LOAD">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IP+" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="IP+" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="IP+" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="IP+" pintype="passive"/>
+    </net>
+    <net code="5" name="/NTC_B">
+      <node ref="P1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="TH1" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/NTC_E">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="P1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/SCL">
+      <node ref="P1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/SDA">
+      <node ref="P1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/TRIG">
+      <node ref="P2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="HS1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="OT1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="P1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="P2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="PS1" pin="3" pinfunction="-Vo" pintype="power_out"/>
+      <node ref="TH1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="11" name="LINE">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="PS1" pin="2" pinfunction="AC/L" pintype="power_in"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="NEUT">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="PS1" pin="1" pinfunction="AC/N" pintype="power_in"/>
+      <node ref="Q1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(OT1-Pad1)">
+      <node ref="OT1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(OT1-Pad4)">
+      <node ref="OT1" pin="4" pinfunction="A1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(OT1-Pad6)">
+      <node ref="OT1" pin="6" pinfunction="A2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="IP-" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="IP-" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="IP-" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="IP-" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="VINN" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VINP" pintype="input"/>
+    </net>
+    <net code="19" name="VCC">
+      <node ref="P1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="PS1" pin="4" pinfunction="+Vo" pintype="power_out"/>
+    </net>
+    <net code="20" name="unconnected-(P1-Pad1)">
+      <node ref="P1" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(P1-Pad3)">
+      <node ref="P1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(P1-Pad4)">
+      <node ref="P1" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(P1-Pad5)">
+      <node ref="P1" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(P1-Pad10)">
+      <node ref="P1" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(P1-Pad11)">
+      <node ref="P1" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(P1-Pad12)">
+      <node ref="P1" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(P1-Pad13)">
+      <node ref="P1" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(P2-Pad1)">
+      <node ref="P2" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(P2-Pad2)">
+      <node ref="P2" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(P2-Pad3)">
+      <node ref="P2" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(P2-Pad5)">
+      <node ref="P2" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(P2-Pad6)">
+      <node ref="P2" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(P2-Pad8)">
+      <node ref="P2" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(P2-Pad11)">
+      <node ref="P2" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(P2-Pad12)">
+      <node ref="P2" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(P2-Pad13)">
+      <node ref="P2" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(P2-Pad14)">
+      <node ref="P2" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(P2-Pad15)">
+      <node ref="P2" pin="15" pinfunction="Pin_15" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

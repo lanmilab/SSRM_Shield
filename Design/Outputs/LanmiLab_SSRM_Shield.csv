@@ -1,0 +1,50 @@
+Source:,github.com/lanmilab/lanmilab/SSRM_Shield/SSRM_Shield_Design/LanmiLab_SSRM_Shield.kicad_sch,,,,,,
+Date:,Sat 19 Feb 2022 03:15:31 PM CET,,,,,,
+Tool:,Eeschema 6.0.2+dfsg-1~bpo11+1,,,,,,
+Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value.py,,,,,,
+Component Count:,24,,,,,,
+,,,,,,,
+Individual Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Part Number
+,,C1,100nF,Device:C,Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm,http://www.farnell.com/datasheets/2045792.pdf?_ga=2.261629197.120407668.1580559680-797642152.1567873553,K104K15X7RF53L2
+,,HS1,Heatsink_Pad,Mechanical:Heatsink_Pad,Heatsink:Heatsink_Fischer_SK129-STS_42x25mm_2xDrill2.5mm,http://www.farnell.com/datasheets/2213390.pdf?_ga=2.177903397.1297140431.1581668985-797642152.1567873553,FA-T220-25E
+,,J1,Conn_01x02,Connector_Generic:Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,https://cdn.harwin.com/pdfs/M20-999.pdf,M20-9990245
+,,J2,Screw_Terminal_01x03,Connector:Screw_Terminal_01x03,TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type073_RT02603HBLU_1x03_P5.08mm_Horizontal,http://www.farnell.com/datasheets/2790706.pdf?_ga=2.174305314.1297140431.1581668985-797642152.1567873553,"MKDS 3/ 3-5,08"
+,,OT1,IL420,Optotriac:IL420,Package_DIP:DIP-6_W7.62mm_LongPads,http://www.farnell.com/datasheets/2047184.pdf?_ga=2.74658833.2071986345.1583145430-1634400480.1575982402,IL420
+,,P1,Conn_01x15,Connector_Generic:Conn_01x15,Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical,https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf,PPPC151LFBN-RC
+,,P2,Conn_01x15,Connector_Generic:Conn_01x15,Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical,https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf,PPPC151LFBN-RC
+,,PS1,IRM-02-9,Converter_ACDC:IRM-02-5,Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_THT,https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF,IRM-02-9
+,,Q1,T3035H-6I,Triac_Thyristor_:T3035H-6I,Package_TO_SOT_THT:TO-220-3_Vertical,https://www.st.com/resource/en/datasheet/t3035h.pdf,T3035H-6I
+,,R1,220R,Device:R_Small_US,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://4donline.ihs.com/images/VipMasterIC/IC/TTRB/TTRB-S-A0005376870/TTRB-S-A0005306648-1.pdf?hkey=52A5661711E402568146F3353EA87419,MFP1-220R JI
+,,R2,56R,Device:R_Small_US,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,http://www.farnell.com/datasheets/2046132.pdf?_ga=2.177976485.1297140431.1581668985-797642152.1567873553,MRS25000C5609FCT00
+,,R3,1K,Device:R_Small_US,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,http://www.farnell.com/datasheets/1723855.pdf?_ga=2.14193847.1297140431.1581668985-797642152.1567873553,LR0204F1K0
+,,R4,2M,Device:R_US,Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal,http://www.farnell.com/datasheets/2045737.pdf?_ga=2.9475893.1297140431.1581668985-797642152.1567873553,HVR3700002004FR500
+,,R5,2M,Device:R_US,Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal,http://www.farnell.com/datasheets/2045737.pdf?_ga=2.9475893.1297140431.1581668985-797642152.1567873553,HVR3700002004FR500
+,,R6,2K2,Device:R_Small_US,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,http://www.farnell.com/datasheets/2013215.pdf?_ga=2.213121812.1297140431.1581668985-797642152.1567873553,CFR16J2K2
+,,R7,10K,Device:R_Small_US,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,http://www.farnell.com/datasheets/2013215.pdf?_ga=2.9543093.1297140431.1581668985-797642152.1567873553,CFR16J10K
+,,R8,10K,Device:R_Small_US,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,http://www.farnell.com/datasheets/2013215.pdf?_ga=2.9543093.1297140431.1581668985-797642152.1567873553,CFR16J10K
+,,TH1,Thermistor_NTC,Device:Thermistor_NTC,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm,http://www.farnell.com/datasheets/2015784.pdf?_ga=2.14334391.1297140431.1581668985-797642152.1567873553,B57891M0103K000
+,,U1,ACS71020KMABTR-030B3-I2C,Power_supervisor:ACS71020KMABTR-030B3-I2C,Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm,https://www.allegromicro.com/-/media/Files/Datasheets/ACS71020-Datasheet.ashx,ACS71020KMABTR-030B3-I2C
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Collated Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Part Number
+1,1,C1,100nF,Device:C,Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm,http://www.farnell.com/datasheets/2045792.pdf?_ga=2.261629197.120407668.1580559680-797642152.1567873553,K104K15X7RF53L2
+3,1,HS1,Heatsink_Pad,Mechanical:Heatsink_Pad,Heatsink:Heatsink_Fischer_SK129-STS_42x25mm_2xDrill2.5mm,http://www.farnell.com/datasheets/2213390.pdf?_ga=2.177903397.1297140431.1581668985-797642152.1567873553,FA-T220-25E
+4,1,J1,Conn_01x02,Connector_Generic:Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,https://cdn.harwin.com/pdfs/M20-999.pdf,M20-9990245
+5,1,J2,Screw_Terminal_01x03,Connector:Screw_Terminal_01x03,TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type073_RT02603HBLU_1x03_P5.08mm_Horizontal,http://www.farnell.com/datasheets/2790706.pdf?_ga=2.174305314.1297140431.1581668985-797642152.1567873553,"MKDS 3/ 3-5,08"
+7,1,OT1,IL420,Optotriac:IL420,Package_DIP:DIP-6_W7.62mm_LongPads,http://www.farnell.com/datasheets/2047184.pdf?_ga=2.74658833.2071986345.1583145430-1634400480.1575982402,IL420
+8,2,"P1, P2",Conn_01x15,Connector_Generic:Conn_01x15,Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical,https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf,PPPC151LFBN-RC
+9,1,PS1,IRM-02-9,Converter_ACDC:IRM-02-5,Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_THT,https://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF,IRM-02-9
+10,1,Q1,T3035H-6I,Triac_Thyristor_:T3035H-6I,Package_TO_SOT_THT:TO-220-3_Vertical,https://www.st.com/resource/en/datasheet/t3035h.pdf,T3035H-6I
+11,1,R1,220R,Device:R_Small_US,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://4donline.ihs.com/images/VipMasterIC/IC/TTRB/TTRB-S-A0005376870/TTRB-S-A0005306648-1.pdf?hkey=52A5661711E402568146F3353EA87419,MFP1-220R JI
+12,1,R2,56R,Device:R_Small_US,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,http://www.farnell.com/datasheets/2046132.pdf?_ga=2.177976485.1297140431.1581668985-797642152.1567873553,MRS25000C5609FCT00
+13,1,R3,1K,Device:R_Small_US,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,http://www.farnell.com/datasheets/1723855.pdf?_ga=2.14193847.1297140431.1581668985-797642152.1567873553,LR0204F1K0
+14,2,"R4, R5",2M,Device:R_US,Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal,http://www.farnell.com/datasheets/2045737.pdf?_ga=2.9475893.1297140431.1581668985-797642152.1567873553,HVR3700002004FR500
+15,1,R6,2K2,Device:R_Small_US,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,http://www.farnell.com/datasheets/2013215.pdf?_ga=2.213121812.1297140431.1581668985-797642152.1567873553,CFR16J2K2
+16,2,"R7, R8",10K,Device:R_Small_US,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,http://www.farnell.com/datasheets/2013215.pdf?_ga=2.9543093.1297140431.1581668985-797642152.1567873553,CFR16J10K
+17,1,TH1,Thermistor_NTC,Device:Thermistor_NTC,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm,http://www.farnell.com/datasheets/2015784.pdf?_ga=2.14334391.1297140431.1581668985-797642152.1567873553,B57891M0103K000
+18,1,U1,ACS71020KMABTR-030B3-I2C,Power_supervisor:ACS71020KMABTR-030B3-I2C,Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm,https://www.allegromicro.com/-/media/Files/Datasheets/ACS71020-Datasheet.ashx,ACS71020KMABTR-030B3-I2C

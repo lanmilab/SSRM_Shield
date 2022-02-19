@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "vtx-214-0005-112")(type "Legacy")(uri "D:/Workspace/Komponente/EDA Library/KiCad/Symbol/vtx-214-0005-112.lib")(options "")(descr ""))
+  (lib (name "Arduino-nano-33")(type "Legacy")(uri "D:/Workspace/Komponente/EDA Library/KiCad/Symbol/Arduino-nano-33.lib")(options "")(descr ""))
+  (lib (name "Optotriac")(type "Legacy")(uri "D:/Workspace/Komponente/EDA Library/KiCad/Symbol/Optotriac.lib")(options "")(descr ""))
+  (lib (name "LanmiLab_SSRM_Shield")(type "KiCad")(uri "${KIPRJMOD}/LanmiLab_SSRM_Shield.kicad_sym")(options "")(descr ""))
+)

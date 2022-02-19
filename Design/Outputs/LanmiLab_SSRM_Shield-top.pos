@@ -1,0 +1,25 @@
+### Module positions - created on Sat 19 Feb 2022 03:20:28 PM CET ###
+### Printed by Pcbnew version 6.0.2+dfsg-1~bpo11+1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                       Package                                                                     PosX       PosY       Rot  Side
+C1        100nF                     C_Disc_D3.4mm_W2.1mm_P2.50mm                                            226.7000  -116.5000  180.0000  top
+HS1       Heatsink_Pad              Heatsink_Fischer_SK129-STS_42x25mm_2xDrill2.5mm                         234.8000  -110.0000   90.0000  top
+J1        Conn_01x02                PinHeader_1x02_P2.54mm_Vertical                                         220.0500   -90.3500    0.0000  top
+J2        Screw_Terminal_01x03      TerminalBlock_MetzConnect_Type073_RT02603HBLU_1x03_P5.08mm_Horizontal   246.4500  -115.1000   90.0000  top
+OT1       IL420                     DIP-6_W7.62mm_LongPads                                                  214.6500  -107.3000   90.0000  top
+P1        Conn_01x15                PinSocket_1x15_P2.54mm_Vertical                                         182.0400  -129.3900   90.0000  top
+P2        Conn_01x15                PinSocket_1x15_P2.54mm_Vertical                                         217.6000  -114.1500  -90.0000  top
+PS1       IRM-02-9                  Converter_ACDC_MeanWell_IRM-02-xx_THT                                   209.1500  -107.8000  180.0000  top
+Q1        T3035H-6I                 TO-220-3_Vertical                                                       239.0000  -112.5400   90.0000  top
+R1        220R                      R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                        220.9500   -96.2000  180.0000  top
+R2        56R                       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                        213.1500  -110.5500    0.0000  top
+R3        1K                        R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal                        197.7000  -118.9500  -90.0000  top
+R4        2M                        R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal                      201.4500  -119.0500    0.0000  top
+R5        2M                        R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal                      201.4500  -124.5500    0.0000  top
+R6        2K2                       R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal                        219.3500  -119.1000  -90.0000  top
+R7        10K                       R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal                        194.4500  -118.9500  -90.0000  top
+R8        10K                       R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal                        191.2000  -119.0000  -90.0000  top
+TH1       Thermistor_NTC            C_Disc_D3.8mm_W2.6mm_P2.50mm                                            237.1500  -103.2500    0.0000  top
+U1        ACS71020KMABTR-030B3-I2C  SOIC-16W_7.5x10.3mm_P1.27mm                                             227.6000  -109.8500  180.0000  top
+## End
